@@ -1,5 +1,25 @@
 {
+  "name": "node_2025",
+  "version": "1.0.0",
+  "description": "learning",
+  "homepage": "https://github.com/abhishekkashyap09/Node_2025#readme",
+  "bugs": {
+    "url": "https://github.com/abhishekkashyap09/Node_2025/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/abhishekkashyap09/Node_2025.git"
+  },
+  "license": "ISC",
+  "author": "abhishek",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
   "dependencies": {
-    "colors": "^1.4.0"
+    "colors": "^1.4.0",
+    "nodemon": "^3.1.14"
   }
 }
